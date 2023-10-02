@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unique Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Calculator Container -->
+    <div class="my-unique-calculator">
+        <!-- Display Screen -->
+        <div class="calculator-display">
+            <input type="text" id="displayInput" value="0" placeholder="0" disabled>
+        </div>
+        <!-- Calculator Buttons -->
+        <div class="calculator-buttons">
+            <!-- Top Row -->
+            <div class="button-row">
+                <button type="button" class="operator">Clear</button>
+                <button type="button" class="operator">Delete</button>
+                <button type="button" class="operator">%</button>
+                <button type="button" class="operator">/</button>
+            </div>
+            <!-- Numeric Rows -->
+            <div class="button-row">
+                <button type="button">7</button>
+                <button type="button">8</button>
+                <button type="button">9</button>
+                <button type="button" class="operator">*</button>
+            </div>
+            <div class="button-row">
+                <button type="button">4</button>
+                <button type="button">5</button>
+                <button type="button">6</button>
+                <button type="button" class="operator">+</button>
+            </div>
+            <div class="button-row">
+                <button type="button">1</button>
+                <button type="button">2</button>
+                <button type="button">3</button>
+                <button type="button" class="operator">-</button>
+            </div>
+            <!-- Bottom Row -->
+            <div class="button-row">
+                <button type="button" id="plusMinus">±</button>
+                <button type="button">0</button>
+                <button type="button">.</button>
+                <button type="button" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Updated file name to "script.js" -->
+</body>
+</html>
